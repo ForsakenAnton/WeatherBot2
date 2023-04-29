@@ -269,6 +269,8 @@ namespace WeatherBot2.Services
 
                     stringBuilder.AppendLine("T: " + day.Temp);
                     stringBuilder.AppendLine("Wind speed: " + day.Windspeed);
+                    stringBuilder.AppendLine("Solar Energy: " + day.Solarenergy);
+                    stringBuilder.AppendLine("Solar Radiation: " + day.Solarradiation);
                 }
             }
 
