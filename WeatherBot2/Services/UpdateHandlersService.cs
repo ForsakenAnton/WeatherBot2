@@ -271,6 +271,7 @@ namespace WeatherBot2.Services
                     stringBuilder.AppendLine("Wind speed: " + day.Windspeed);
                     stringBuilder.AppendLine("Solar Energy: " + day.Solarenergy);
                     stringBuilder.AppendLine("Solar Radiation: " + day.Solarradiation);
+                    stringBuilder.AppendLine("Moonphase: " + day.Moonphase);
                 }
             }
 
